@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-abacus-component' ]; then cd .. && eval "mv $currentfolder generator-abacus-component" && cd generator-abacus-component; fi
+
