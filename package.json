@@ -1,6 +1,6 @@
 {
   "name": "generator-abacus-component",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Yeoman generator and modified generator-ng-component",
   "license": "MIT",
   "main": "app/index.js",
